@@ -67,6 +67,7 @@ em { color: var(--blue); font-style: normal; }
 
 .section { padding: 9vw 6vw; border-bottom: 1px solid var(--line); }
 .section-intro h2, .section-heading h2, .closing h2 { margin: 0; font: 700 clamp(3.2rem, 6.7vw, 7.2rem)/.9 var(--display); letter-spacing: -.065em; }
+.section-intro h2.career-heading { font-size: clamp(2.5rem, 5vw, 5rem); line-height: .98; letter-spacing: -.05em; }
 .section-heading { display: flex; justify-content: space-between; align-items: end; gap: 48px; margin-bottom: 6vw; }
 .section-heading > p { max-width: 390px; margin: 0; color: var(--muted); line-height: 1.7; }
 
